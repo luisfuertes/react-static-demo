@@ -6,7 +6,7 @@ import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default {
-  siteRoot: 'http://my-domain.com',
+  siteRoot: 'http://localhost:3000',
 
   // Add constants from config?
   getSiteData: () => ({
