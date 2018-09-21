@@ -1,0 +1,5 @@
+{
+  "extends": "react-static/.babelrc",
+  "plugins": ["babel-plugin-styled-components"],
+  "presets": ["env", "react", "stage-0"]
+}

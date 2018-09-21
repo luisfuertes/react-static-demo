@@ -1,0 +1,58 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "postbuild": "cp ./src/config/htaccess ./dist/.htaccess",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "axios": "^0.19.0-beta.1",
+    "bluebird": "^3.5.1",
+    "json-loader": "^0.5.7",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "qs": "^6.5.2",
+    "react": "^16.0.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.0.0",
+    "react-geosuggest": "^2.8.0",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^2.2.7",
+    "react-input-range": "^1.3.0",
+    "react-localization": "^1.0.10",
+    "react-modal": "^3.5.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.3.1",
+    "react-select": "1.2.1",
+    "react-share": "^2.3.0",
+    "react-spinkit": "^3.0.0",
+    "react-star-ratings": "^2.3.0",
+    "react-static": "^5.9.7",
+    "react-tabs": "^2.2.2",
+    "react-universal-component": "^3.0.0",
+    "react-vimeo": "^2.0.0",
+    "react-youtube": "^7.6.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.3.3",
+    "victory": "^30.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "^6.1.0"
+  },
+  "prettier": {
+    "printWidth": 150,
+    "parser": "flow",
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true
+  }
+}

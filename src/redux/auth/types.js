@@ -1,0 +1,6 @@
+export const SET_AUTH_INIT = 'SET_AUTH_INIT'
+export const SET_AUTH_FETCHING = 'SET_AUTH_FETCHING'
+export const SET_AUTH_TOKEN = 'SET_AUTH_TOKEN'
+export const SET_AUTH_LANGUAGE = 'SET_AUTH_LANGUAGE'
+export const SET_AUTH_ERROR = 'SET_AUTH_ERROR'
+export const LOG_OUT = 'LOG_OUT'
