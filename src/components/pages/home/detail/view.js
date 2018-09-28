@@ -7,7 +7,12 @@ export default class extends Component {
     return (
       <div>
         <h2>STATIC ROUTE</h2>
-        <Link to="/dynamicroute">{'GO TO DYNAMIC ROUTE'}</Link>
+        <Link prefetch={true} to="/dynamicroute">
+          {'GO TO DYNAMIC ROUTE'}
+        </Link>
+        <Link prefetch={false} to="/dynamicroute">
+          {'GO TO DYNAMIC ROUTE WITHOUT PREFETCH'}
+        </Link>
       </div>
     )
   }

@@ -12,9 +12,11 @@ function mapDispatchToProps(dispatch, props) {
   return {}
 }
 
+/*
 const Container = connect(
   mapStateToProps,
   mapDispatchToProps
 )(View)
+*/
 
-export default withRouteData(props => <Container {...props} />)
+export default withRouteData(props => <View {...props} />)
